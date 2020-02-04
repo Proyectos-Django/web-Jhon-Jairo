@@ -44,3 +44,8 @@ configuracion para visualizacion de imagen si DEBUG esta en true en urls.py de p
 if settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+============================================================================================
+mkvirtualenv --python=python3.6 django2
+deactivate
+source ~/.virtualenvs/django2/bin/activate
