@@ -49,5 +49,9 @@ if settings.DEBUG:
 mkvirtualenv --python=python3.6 django2
 deactivate
 source ~/.virtualenvs/django2/bin/activate
+pip list
+
+crear en directorio un requirements.txt
 
 despliegue
+
